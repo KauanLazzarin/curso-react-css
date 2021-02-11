@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(110, 23, 168);
+}
+
+.title {
+    color: rgb(188, 176, 218) !important;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;    
+}
+
+.paragraph {
+    font-size: 20px;
+    color: white;
+    font-family: monospace;
+}
+
+.button {
+    padding: 25px;
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: black;
+    cursor: pointer;
+}
