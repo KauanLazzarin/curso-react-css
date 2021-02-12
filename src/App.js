@@ -1,5 +1,6 @@
 import './css/App.css';
 import CssModules from './CssModules';
+import Frameworks from './Frameworks';
 import StyledComponents from './StyledComponents';
 
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
 
       <CssModules />
       <StyledComponents />
+      <Frameworks />
     </div>
   );
 }
